@@ -1,0 +1,10 @@
+.product {
+    will-change: background-color, filter;
+    transition: 500ms;
+}
+
+.product:hover {
+    background-color: black;
+    filter: brightness(75%);
+}
+

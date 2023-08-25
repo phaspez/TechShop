@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S23 Ultra 256GB",
+        "price": 25590,
+        "specs": {
+            "brand": "Samsung",
+            "tags": ["phone", "samsung"],
+            "ram": "8 GB",
+            "display": "6.8 inches",
+            "memory": "256 GB"
+        },
+        "desc": "The new Samsung Galaxy S",
+        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy Z Fold5 12GB 512GB",
+        "price": 40990,
+        "specs": {
+            "brand": "Samsung",
+            "tags": ["phone", "samsung"],
+            "ram": "12 GB",
+            "display": "7.6 inches",
+            "memory": "512 GB"
+        },
+        "desc": "Our most expensive Galaxy yet",
+        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+    },
+    {
+        "id": 3,
+        "name": "Samsung Galaxy Z Flip5 512GB",
+        "price": 25990,
+        "specs": {
+            "brand": "Samsung",
+            "tags": ["phone", "samsung"],
+            "ram": "8 GB",
+            "display": "6.7 inches",
+            "memory": "512 GB"
+        },
+        "desc": "It can fold!",
+        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+    },
+    {
+        "id": 4,
+        "name": "OPPO Reno10 5G 8GB 256GB",
+        "price": 10990,
+        "specs": {
+            "brand": "Oppo",
+            "tags": ["phone", "oppo"],
+            "ram": "8 GB",
+            "display": "6.7 inches",
+            "memory": "512 GB"
+        },
+        "desc": "Oppo Reno phone desc",
+        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+    },
+    {
+        "id": 5,
+        "name": "OPPO Reno8 T 5G",
+        "price": 9290,
+        "specs": {
+            "brand": "Oppo",
+            "tags": ["phone", "oppo"],
+            "ram": "8 GB",
+            "display": "6.7 inches",
+            "memory": "512 GB"
+        },
+        "desc": "More Phone desc",
+        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+    },
+    {
+        "id": 6,
+        "name": "Laptop Dell Inspiron 3511 5829BLK",
+        "price": 13490,
+        "specs": {
+            "brand": "Dell",
+            "tags": ["laptop", "dell"],
+            "ram": "8 GB",
+            "cpu": "i5-1135g7",
+            "display": "14 inches",
+            "memory": "512 GB SSD"
+        },
+        "desc": "Cool Dell Laptop",
+        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+    }, 
+    {
+        "id": 7,
+        "name": "Laptop Lenovo Gaming Legion 5 15ARH7 82RE002VVN",
+        "price": 24490,
+        "specs": {
+            "brand": "Lenovo",
+            "tags": ["laptop", "lenovo"],
+            "ram": "8 GB",
+            "cpu": "i5-1135g7",
+            "display": "14 inches",
+            "memory": "512 GB SSD"
+        },
+        "desc": "Cool Lenovo laptop",
+        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+    }
+]
