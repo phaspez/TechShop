@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import { useShopCart } from "../ShopContext";
 
 function Header() {
+  const { getItemsCount } = useShopCart();
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
@@ -20,12 +22,12 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
-            <li className="nav-item">
+            <li className="nav-item" id="all">
               <Link to={"/all-products"} className="nav-link">
                 All Products
               </Link>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown" id="phones">
               <a
                 className="nav-link dropdown-toggle"
                 role="button"
@@ -34,7 +36,7 @@ function Header() {
               >
                 Phones
               </a>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu" id="samsung">
                 <li>
                   <Link
                     to={"/all-products/phones/samsung"}
@@ -43,7 +45,7 @@ function Header() {
                     Samsung
                   </Link>
                 </li>
-                <li>
+                <li id="oppo">
                   <Link
                     to={"/all-products/phones/oppo"}
                     className="dropdown-item"
@@ -51,17 +53,17 @@ function Header() {
                     Oppo
                   </Link>
                 </li>
-                <li>
+                <li id="div">
                   <hr className="dropdown-divider" />
                 </li>
-                <li>
+                <li id="all=phones">
                   <Link to={"/all-products/phones"} className="dropdown-item">
                     All Phones
                   </Link>
                 </li>
               </ul>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown" id="laptops">
               <a
                 className="nav-link dropdown-toggle"
                 role="button"
@@ -71,7 +73,7 @@ function Header() {
                 Laptops
               </a>
               <ul className="dropdown-menu">
-                <li>
+                <li id="dell">
                   <Link
                     to={"/all-products/laptops/dell"}
                     className="dropdown-item"
@@ -79,7 +81,7 @@ function Header() {
                     Dell
                   </Link>
                 </li>
-                <li>
+                <li id="lenovo">
                   <Link
                     to={"/all-products/laptops/lenovo"}
                     className="dropdown-item"
@@ -87,7 +89,7 @@ function Header() {
                     Lenovo
                   </Link>
                 </li>
-                <li>
+                <li id="all-laptops">
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
@@ -97,12 +99,18 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" id="accessories">
               <Link to={"/all-products/accessories"} className="nav-link">
                 Accessories
               </Link>
             </li>
           </ul>
+          <label htmlFor="" className="px-2">
+            {"In cart: " + getItemsCount()}
+          </label>
+          <Link to={"/cart"} className="btn btn-primary mx-1">
+            Checkout
+          </Link>
           <form className="d-flex" role="search">
             <input
               className="form-control me-2"

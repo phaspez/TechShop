@@ -7,7 +7,7 @@ export interface ProductPageProps {
   searchCriteria: string | null;
 }
 
-function ProductGroup({ pageName, searchCriteria }: ProductPageProps) {
+function SideScrollableGroup({ pageName, searchCriteria }: ProductPageProps) {
   let filteredProducts = myJson.map((item) =>
     searchCriteria
       ? item.specs.tags.includes(searchCriteria)
@@ -21,7 +21,7 @@ function ProductGroup({ pageName, searchCriteria }: ProductPageProps) {
       <Breadcrumb />
       <h1>{pageName}</h1>
 
-      <div className="row row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-xs-2 g-3">
+      <div className="row row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-xs-2 overflow-x">
         {filteredProducts.map((item) =>
           item ? (
             <ProductLayout
@@ -39,4 +39,4 @@ function ProductGroup({ pageName, searchCriteria }: ProductPageProps) {
   );
 }
 
-export default ProductGroup;
+export default SideScrollableGroup;

@@ -25,7 +25,7 @@
             "memory": "512 GB"
         },
         "desc": "Our most expensive Galaxy yet",
-        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+        "imgUrl": ["/imgs/samsung-galaxy-z-fold5.webp"]
     },
     {
         "id": 3,
@@ -39,7 +39,7 @@
             "memory": "512 GB"
         },
         "desc": "It can fold!",
-        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+        "imgUrl": ["/imgs/samsung-galaxy-z-flip5.jpg"]
     },
     {
         "id": 4,
@@ -53,7 +53,7 @@
             "memory": "512 GB"
         },
         "desc": "Oppo Reno phone desc",
-        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+        "imgUrl": ["/imgs/oppo-reno10-grey.jpg"]
     },
     {
         "id": 5,
@@ -67,7 +67,7 @@
             "memory": "512 GB"
         },
         "desc": "More Phone desc",
-        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+        "imgUrl": ["/imgs/oppo-reno8t-den.jpg"]
     },
     {
         "id": 6,
@@ -82,7 +82,7 @@
             "memory": "512 GB SSD"
         },
         "desc": "Cool Dell Laptop",
-        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+        "imgUrl": ["/imgs/dell_inspiron351.png"]
     }, 
     {
         "id": 7,
@@ -97,6 +97,6 @@
             "memory": "512 GB SSD"
         },
         "desc": "Cool Lenovo laptop",
-        "imgUrl": ["/imgs/samsung-galaxy-s23-ultra.png"]
+        "imgUrl": ["/imgs/lenovo-legion-5.webp"]
     }
 ]
